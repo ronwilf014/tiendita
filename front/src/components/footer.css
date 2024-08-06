@@ -1,0 +1,27 @@
+footer {
+  display: flex;
+  background: #3F3F46;
+  padding: 60px 60px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+footer img {
+  width: 120px;
+  height: 120px;
+  /*border-radius: 50%;*/
+  margin-bottom: 40px;
+}
+
+.footer_redes {
+ margin-bottom: 40px;
+}
+
+.footer_redes .fa-brands {
+  color: var(--pure);
+  font-size: 2rem;
+  padding: 0 10px;
+}

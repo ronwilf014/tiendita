@@ -1,0 +1,111 @@
+/* Slider de Cards para Tiendas o productos*/
+
+.services_G {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+  padding: 0px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.services_G .slider-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.services_G .slider-container {
+  width: 90%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.services_G .slider-content {
+  display: flex;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.services_G .review-card {
+  box-shadow: 1px 1px 10px 0px #0000001a;
+  border-radius: 10px;
+  margin-right: 20px;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+.services_G .heading .name-cus {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.services_G .review-card .prop {
+  font-size: 14px;
+  line-height: 1.;
+  color: #666;
+}
+
+.services_G .rating-image {
+  margin-top: -15px;
+  margin-left: -8px;
+}
+
+.services_G .review-card:last-child {
+  margin-right: 0;
+}
+
+.services_G .flex-profile {
+  display: flex;
+  gap: 40px;
+
+  align-items: center;
+}
+
+.services_G .prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #630038;
+  background-color: #00000057;
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+
+.services_G .prev {
+  left: 0;
+}
+
+.services_G .next {
+  right: 0;
+}
+
+@media (max-width: 400px) {
+  .services_G .review-card .prop {
+      font-size: 12px;
+      line-height: 1.6;
+      color: #666;
+  }
+}
+
+.services_G .container_cards_blog {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
